@@ -141,7 +141,10 @@
         
         /* Hero Section */
         .hero {
-            background: linear-gradient(135deg, var(--primary) 0%, var(--primary-dark) 100%);
+            background-image: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.1)), url(img/heroOrinocoFT.jpeg);
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
             color: var(--white);
             padding: 150px 0 80px;
             position: relative;
@@ -233,6 +236,7 @@
             display: grid;
             grid-template-columns: repeat(2, 1fr);
             gap: 25px;
+            align-items: center;
         }
         
         .feature-card {
@@ -261,9 +265,27 @@
         
         .feature-card p {
             color: var(--gray);
-            font-size: 14px;
+            font-size: 16px;
         }
 
+        .features_info {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 8px;
+        }
+
+        img.features_info__img {
+            width: 20px;
+            height: 20px;
+        }
+
+        .features_info__conclusion {
+            font-size: 16px;
+            max-width: 70%;
+            line-height: 17px;
+            margin-top: 12px;
+        }
 
         
         /* About Section */
@@ -376,6 +398,10 @@
             padding: 80px 0;
             background-color: var(--gray-light);
         }
+        section.features-about {
+            background-color: var(--gray-light);
+                padding: 80px 0;
+        }
         
         .feature-about .section-header {
             text-align: center;
@@ -447,7 +473,7 @@
         /* Services Section */
         .services {
             padding: 80px 0;
-            background-color: var(--gray-light);
+
         }
         
         .services-grid {
@@ -545,6 +571,19 @@
             padding: 80px 0;
             background-color: var(--gray-light);
             background-image: url("img/hero4.jpg");
+        }
+
+        .team .section-header {
+            text-align: left;
+            margin: 0px;
+            width: 50%;
+        }
+
+        .team .section-header h2 {
+            color: var(--white);
+        }
+        .team .section-header p {
+            color: var(--white);
         }
         
         .team-grid {
