@@ -9,17 +9,86 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 </head>
 
 <body>
+    <!-- Header -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <img class="logo__img" src="img/orinoco tech.png" alt="">
+            </div>
 
-    <div class="container-gracias">
-            <img src="img/orinoco tech.png" class="gracias__logo" alt="">
-            <h3>¡Gracias por contactarnos!</h3>
-            <p>Hemos recibido tu información y nuestro equipo te responderá en un plazo de 24 a 48 horas. Mientras tanto, puedes seguir navegando en nuestro sitio.</p>
-            <a href="index.html " class="btn btn-primary">¡Volver a la página principal!</a>
-    </div>
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
 
+            <nav id="mainNav">
+                <ul>
+                    <li><a href="index.html/#inicio">Inicio</a></li>
+                    <li><a href="#nosotros">Nosotros</a></li>
+                    <li><a href="#servicios">Servicios</a></li>
+                    <li><a href="#certificaciones">Certificaciones</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <div class="header-actions">
+                <a href="#contacto" class="btn btn-primary">Contactar</a>
+            </div>
+        </div>
+    </header>
+
+    <p>Gracias</p>
+
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-about">
+                    <div class="footer-logo">
+                        <span>ORINOCO </span><span>FUELTECH</span>
+                    </div>
+                    <p>Líderes en soluciones tecnológicas para la industria petrolera, comprometidos con la excelencia
+                        operativa, seguridad y sostenibilidad ambiental.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Servicios</h4>
+                    <ul>
+                        <li><a href="#servicios">Operación Petrolera</a></li>
+                        <li><a href="#servicios">Servicios de Pozos</a></li>
+                        <li><a href="#servicios">Procura y Suministro</a></li>
+                        <li><a href="#servicios">Obras Civiles</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Empresa</h4>
+                    <ul>
+                        <li><a href="#nosotros">Nosotros</a></li>
+                        <li><a href="#nosotros">Equipo</a></li>
+                        <li><a href="#certificaciones">Certificaciones</a></li>
+                        <li><a href="#nosotros">Sostenibilidad</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Contacto</h4>
+                    <ul>
+                        <li><a href="#contacto">Información de Contacto</a></li>
+                        <li><a href="#contacto">Oportunidades</a></li>
+                        <li><a href="#contacto">Soporte</a></li>
+                        <li><a href="#contacto">Ubicaciones</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 ORINOCO FUELTECH. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
 </body>
 
 </html>

@@ -291,6 +291,10 @@
             margin-top: 12px;
         }
 
+        .features_info p{
+            text-align: left;
+        }
+
         
         /* About Section */
 
@@ -532,6 +536,18 @@
             position: absolute;
             left: 0;
         }
+
+        img.block__img.block__img-pys {
+    object-position: 0px -170px;
+}
+
+    .block__img-sep{
+        object-position: 0px -120px;
+    }
+
+    .block__img-byd{
+    object-position: 0px -15px;
+}
         
         /* Certifications Section */
         .certifications {
@@ -930,6 +946,11 @@
             .footer-grid {
                 grid-template-columns: 1fr 1fr;
                 gap: 40px;
+            }
+
+            .features-about-grid, .features-grid {
+                grid-template-columns: repeat(1, minmax(280px, 600px));
+                        justify-content: center;
             }
         }
         
