@@ -864,6 +864,24 @@
             color: var(--primary);
         }
 
+        /* GRACIAS */
+.gracias__logo{
+    max-width: 200PX;
+}
+
+.container-gracias{
+        max-width: 550px;
+    height: 100vh;
+    margin: 0 auto;
+    gap: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+
         /* lottie */
         .features__lottie-info-box {
             display: grid;
