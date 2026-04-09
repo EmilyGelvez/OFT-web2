@@ -58,6 +58,10 @@
             color: var(--gold);
             margin-left: 4px;
         }
+
+        .logo__img {
+    width: 80px;
+}
         
         /* Mobile Menu */
         .mobile-menu-btn {
@@ -146,7 +150,7 @@
             background-position: center;
             background-repeat: no-repeat;
             color: var(--white);
-            padding: 150px 0 80px;
+            padding: 180px 0 80px;
             position: relative;
             overflow: hidden;
         }
@@ -298,7 +302,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 50px;
-            align-items: start;
+            align-items: center;
         }
 
         .about-content__img {
@@ -569,21 +573,33 @@
         /* Team Section */
         .team {
             padding: 80px 0;
-            background-color: var(--gray-light);
-            background-image: url("img/hero4.jpg");
+            
         }
+
+        .team .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
         .team .section-header {
             text-align: left;
             margin: 0px;
-            width: 50%;
-        }
+            background-color: var(--gold);
+                padding: 50px;
+                display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 
         .team .section-header h2 {
             color: var(--white);
         }
         .team .section-header p {
             color: var(--white);
+        }
+
+        .team .container img{
+            width: 100%;
         }
         
         .team-grid {
@@ -622,6 +638,7 @@
         /* Contact Section */
         .contact {
             padding: 80px 0;
+            background-color: var(--gray-light);
         }
         
         .contact-content {
